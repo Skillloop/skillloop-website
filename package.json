@@ -47,4 +47,13 @@
     "tailwindcss": "^4.1.11",
     "vite": "^7.0.2"
   }
+"scripts": {
+  "dev": "vite --host",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "postinstall": "npm install --legacy-peer-deps"
+}
+
+  
 }
